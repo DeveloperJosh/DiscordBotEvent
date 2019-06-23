@@ -1,6 +1,6 @@
 # DiscordBotEvent
 
-This is a bot event for discord, Please note that this code is codded by Catツ#0001 and Blue#6268, Please do not steal our bot saying you coded it when you took our code from here
+This is a bot event for discord, Please note that this code is coded by Catツ#0001 and Blue#6268, Please do not steal our bot saying you coded it when you took our code from here
 
 
 
