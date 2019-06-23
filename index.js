@@ -67,7 +67,7 @@ bot.on("message", async message => {
         let sicon = message.guild.iconURL;
         let serverembed = new Discord.RichEmbed()
         .setTitle("Server Information")
-        .setFooter("Version Beta")
+        .setFooter("Version 1.0")
         .setColor("#15f153")
         .setThumbnail(sicon)
         .addField("Server Name", message.guild.name)
@@ -87,14 +87,14 @@ bot.on("message", async message => {
 
         let bicon = bot.user.displayAvatarURL;
         let botembed = new Discord.RichEmbed()
-        .setTitle("Pipimi Info")
-        .setFooter("Version Beta")
+        .setTitle("Bot Info")
+        .setFooter("Version 1.0")
         .setColor("#3e15f2")
         .setThumbnail(bicon)
         .addField("Bot Name", bot.user.username)
-        .addField("Bot description", "This bot was build off of Catnopat and an unreleased version of popuko, All Newer versions of popuko runs on here first before released to the public")
+        .addField("Bot description", "This bot was build off of Catツ#0001 and Blue#6268 on Github")
         .addField("Version", "Beta")
-        .addField("Bot invite", "Pipimi doesn't have a bot invite as it's a unreleased bot")
+        .addField("Github", "https://github.com/Catdontpat/DiscordBotEvent")
         .addField("Support server", "https://discord.gg/Q28WvKZ");
 
         return message.channel.send(botembed);
@@ -104,13 +104,11 @@ bot.on("message", async message => {
 
         let uicon = bot.user.displayAvatarURL;
         let uembed = new Discord.RichEmbed()
-        .setTitle("Pipimi and Popuko updates")
-        .setFooter("Version beta")
+        .setTitle("Updates")
+        .setFooter("Version 1.0")
         .setColor("#4d1ff2")
         .setThumbnail(uicon)
-        .addField("Pipimi Updates And More", "Pipimi has changed it's status and a few more commands are getting added ")
-        .addField("Popuko Updates And More", "Popuko is currenly down as it is experiencing a few problems with it's coding and also getting hosted")
-        .addField("More coming soon!", "Check again later!");
+        .addField("This Bot currently has no updates at the moment", "Check in later")
 
         return message.channel.send(uembed);
     }
