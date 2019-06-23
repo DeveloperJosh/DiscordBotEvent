@@ -1,0 +1,8 @@
+{
+  "name": "Enter-Name-Here",
+  "version": "1.0.0",
+  "description": "A moderation bot for Discord",
+  "main": "bot.js",
+  "author": "YOUR-NAME-HERE",
+  "dependencies": {}
+}
